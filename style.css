@@ -25,9 +25,6 @@ h2 {
   font-family: 'Poppins';
 }
 
-/* a:hover {
-  color: #FFEAD2;
-} */
 
 /* a {
   color: #b6b8bb;
@@ -39,6 +36,10 @@ h2 {
 a {
   text-decoration: none;
 }
+
+/* a:hover {
+  color: #ea1621;
+} */
 
 .img-circle {
   border-radius: 50%;
@@ -54,6 +55,10 @@ a {
   padding: 15px 20px;
   border-radius: 4px;
   text-decoration: none;
+}
+.button-beige:hover {
+  background-color: #FFEAD2;
+  color: #8294C4;
 }
 .card {
     text-align: center;
@@ -82,6 +87,9 @@ a {
 .list-inline li {
   display: inline;
   padding: 0px 20px;
+}
+.list-inline i:hover {
+  color: #FFEAD2;
 }
 
 #introduction p {
